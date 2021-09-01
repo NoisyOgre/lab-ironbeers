@@ -1,7 +1,82 @@
-/*
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Centralize {
+  justify-content: center;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.index-margin {
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #f7f9f9;
+}
+.navbar-top {
+  background-color: #2081c3;
+}
+.navbar-bottom {
+  background-color: #0a2c42;
+}
+
+.spacing {
+  margin: 25px;
+}
+.spacing2 {
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.spacing3 {
+  margin-right: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.row-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.row-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.positioning {
+  justify-content: center;
+}
+.light-blue-colorise {
+  background-color: #2081c3;
+}
+.dark-blue-colorize {
+  background-color: #0a2c42;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.grey-colorise {
+  color: #bfbfbf;
+}
+
+/* {
 white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
-*/
+} */

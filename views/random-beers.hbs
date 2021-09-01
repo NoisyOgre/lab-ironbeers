@@ -1,0 +1,27 @@
+{{#each response}}
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 row-3">
+            <div class="spacing3">
+                <br>
+                <br>
+                <img src="{{image_url}}" alt="image pictures" />
+            </div>
+
+        </div>
+        <div class="col-md-9">
+            <div>
+                <br>
+                <br>
+                <h1 class="spacing2">{{name}}</h1>
+            </div>
+            <div>
+                <span class="spacing2 grey-colorise">Hello my name is {{name}}</span>
+            </div>
+            <div>
+                <span class="spacing2">{{description}}</span>
+            </div>
+            <div>
+                <span class="spacing2">{{tagline}}</span>
+            </div>
+            {{/each}}
